@@ -43,16 +43,16 @@ const Form = ({book, setBook}) => {
     return ( 
         <form onSubmit={handleSubmit}>
             <div className="mb-3">
-                <label htmlFor="title" className="form-label">Title</label>
-                <input value={titulo} name="titulo" onChange={handleChange} type="text" id="title" className="form-control"/>
+                <label htmlFor="title" className="form-label">descripcion</label>
+                <input value={descripcion} name="titulo" onChange={handleChange} type="text" id="title" className="form-control"/>
             </div>
             <div className="mb-3">
-                <label htmlFor="author" className="form-label">Author</label>
-                <input value={autor} name="autor" onChange={handleChange} type="text" id="author" className="form-control"/>
+                <label htmlFor="author" className="form-label">Ubicacion</label>
+                <input value={ubicacion} name="autor" onChange={handleChange} type="text" id="author" className="form-control"/>
             </div>
             <div className="mb-3">
-                <label htmlFor="edition" className="form-label">Edition</label>
-                <input value={edicion}  name="edicion" onChange={handleChange} type="number" id="edition" className="form-control"/>
+                <label htmlFor="edition" className="form-label">inventario</label>
+                <input value={inventario}  name="edicion" onChange={handleChange} type="number" id="edition" className="form-control"/>
             </div>
             <button type="submit" className="btn btn-primary">Submit</button>
         </form>
