@@ -1,0 +1,26 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "descripcion": "los 7 habitos de las personas altamente efectivas",
+    "inventario": "5",
+    "ubicacion": Buenos aires,
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "descripcion": "una breve historia del tiempo",
+    "inventario": "5",
+    "ubicacion": mar del plata,
+}
